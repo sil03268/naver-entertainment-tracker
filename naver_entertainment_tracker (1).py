@@ -1,11 +1,6 @@
 """
 네이버 증권 "방송과엔터테인먼트" 업종 트래커 (개인 연구용)
 
-기존 3.py(제약 업종 트래커)를 그대로 재사용하되, 기본 업종만
-"방송과엔터테인먼트"로 바꾼 버전입니다. 코드 구조/함수는 전부 동일하고,
-argparse의 --sector 기본값과 CSV 저장 경로만 다릅니다.
-(실제로는 3.py에서 --sector "방송과엔터테인먼트" 옵션만 줘도 동일하게 동작합니다.)
-
 사용 예
     python naver_entertainment_tracker.py --list                 # 업종 목록 확인
     python naver_entertainment_tracker.py --top 20                # 상위 20개 1회 수집
